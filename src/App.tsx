@@ -1,11 +1,12 @@
-import './App.css'
+import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Root from './pages/Root.tsx'
+import { devRoutes, mainRoutes } from "@routes";
+
+const router = createBrowserRouter([...mainRoutes, ...devRoutes]);
+
 function App() {
-
-  return (
-    <Root/>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
