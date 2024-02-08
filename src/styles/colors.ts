@@ -4,6 +4,7 @@ export const Colors = {
   Primary03: "#39B46A99",
   Primary04: "#39B46A66",
   Primary05: "#39B46A33",
+  GrayGreen: "#759D85",
 
   Black: "#000000",
   Silver: "#C0C0C0",

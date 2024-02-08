@@ -22,21 +22,35 @@ export interface IconContainerProps {
 }
 
 export interface ButtonProps {
-  className?: string;
-  customStyle?: SerializedStyles;
   label?: string;
   variant?: string;
   size?: string;
   leftIcon?: IconObject;
   rightIcon?: IconObject;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  className?: string;
+  customStyle?: SerializedStyles;
 }
 
 export interface ButtonContainerProps {
-  className?: string;
-  customStyle?: SerializedStyles;
   variant?: string;
   size?: string;
   leftIcon?: IconObject;
   rightIcon?: IconObject;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface TagProps {
+  label: string;
+  icon?: IconObject;
+  variant?: string;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface TagContainerProps {
+  variant?: string;
+  customStyle?: SerializedStyles;
 }

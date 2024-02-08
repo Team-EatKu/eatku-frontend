@@ -4,14 +4,14 @@ import { ButtonProps } from "@typings/common/atom.ts";
 import Icon from "@atom/Icon";
 
 const Button = ({
-  className = "",
-  customStyle = css``,
   label,
   variant = "primary",
   size = "medium",
   leftIcon,
   rightIcon,
   onClick = () => {},
+  className = "",
+  customStyle = css``,
 }: ButtonProps) => {
   const iconSize =
     size === "small" ? "2.0rem" : size === "large" ? "2.8rem" : "2.4rem";
