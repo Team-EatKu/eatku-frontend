@@ -53,6 +53,9 @@
       "@customTemplate/*": [
         "src/component/template/*"
       ],
+      "@styles": [
+        "src/styles"
+      ],
       "@typings/*": [
         "src/typings/*"
       ]
