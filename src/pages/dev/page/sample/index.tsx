@@ -1,5 +1,5 @@
 import { Icons, Colors } from "@styles";
-import { Button, Icon, Image, Tag } from "@atom/index.tsx";
+import { Button, Icon, Image, Input, Tag } from "@atom/index.tsx";
 
 const index = () => {
   return (
@@ -33,6 +33,9 @@ const index = () => {
           width={"50rem"}
           aspectRatio={"5 / 1"}
         />
+      </section>
+      <section style={{ width: "30rem" }}>
+        <Input />
       </section>
     </>
   );

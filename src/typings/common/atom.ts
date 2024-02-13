@@ -71,3 +71,24 @@ export interface ImageContainerProps {
   aspectRatio?: string;
   customStyle?: SerializedStyles;
 }
+
+export interface InputProps {
+  type?: string;
+  width?: string;
+  height?: string;
+  fontSize?: string;
+  placeholder?: string;
+  value?: string;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  disabled?: boolean;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface InputContainerProps {
+  width?: string;
+  height?: string;
+  fontSize?: string;
+
+  customStyle?: SerializedStyles;
+}
