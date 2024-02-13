@@ -101,3 +101,11 @@ export interface MapProps {
 export interface MapContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface LogoProps {
+  width?: string;
+}
+
+export interface LogoContainerProps {
+  width?: string;
+}

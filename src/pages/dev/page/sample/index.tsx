@@ -1,10 +1,13 @@
 import { Icons, Colors } from "@styles";
-import { Button, Icon, Image, Input, Tag } from "@atom/index.tsx";
+import { Button, Icon, Image, Input, Logo, Tag } from "@atom/index.tsx";
 import { SearchBar } from "@molecule/index.tsx";
 
 const index = () => {
   return (
     <>
+      <section>
+        <Logo />
+      </section>
       <section>
         <Icon icon={Icons.search} color={Colors.Black} />
       </section>
