@@ -14,9 +14,9 @@ const Tag = ({
 }: TagProps) => {
   return (
     <TagContainer
-      className={className}
       onClick={onClick}
       variant={variant}
+      className={`tag ${className}`}
       customStyle={customStyle}
       {...props}
     >

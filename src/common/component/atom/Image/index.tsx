@@ -17,7 +17,7 @@ const Image = ({
       width={width}
       height={height}
       aspectRatio={aspectRatio}
-      className={className}
+      className={`image ${className}`}
       customStyle={customStyle}
       {...props}
     ></ImageContainer>

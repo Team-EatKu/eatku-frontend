@@ -18,7 +18,7 @@ const Button = ({
     size === "small" ? "2.0rem" : size === "large" ? "2.8rem" : "2.4rem";
   return (
     <ButtonContainer
-      className={className}
+      className={`button ${className}`}
       customStyle={customStyle}
       variant={variant}
       size={size}

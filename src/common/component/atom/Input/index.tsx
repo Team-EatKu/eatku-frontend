@@ -25,7 +25,7 @@ const Input = ({
       value={value}
       onChange={onChange}
       disabled={disabled}
-      className={className}
+      className={`input ${className}`}
       customStyle={customStyle}
       {...props}
     ></InputContainer>

@@ -5,7 +5,7 @@ import { MapContainer } from "./styles.ts";
 const Map = ({ className = "", customStyle = css``, ...props }: MapProps) => {
   return (
     <MapContainer
-      className={className}
+      className={`map ${className}`}
       customStyle={customStyle}
       {...props}
     ></MapContainer>
