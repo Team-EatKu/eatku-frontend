@@ -92,3 +92,12 @@ export interface InputContainerProps {
 
   customStyle?: SerializedStyles;
 }
+
+export interface MapProps {
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface MapContainerProps {
+  customStyle?: SerializedStyles;
+}

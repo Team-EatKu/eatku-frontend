@@ -9,6 +9,7 @@ const Icon = ({
   color = Colors.Black,
   className = "",
   customStyle = css``,
+  ...props
 }: IconProps) => {
   return (
     <IconContainer
@@ -16,6 +17,7 @@ const Icon = ({
       color={color}
       className={`icon ${icon.name}-icon ${icon.className} ${className}`}
       customStyle={customStyle}
+      {...props}
     >
       {icon.name}
     </IconContainer>

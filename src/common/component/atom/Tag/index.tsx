@@ -10,6 +10,7 @@ const Tag = ({
   onClick = () => {},
   className = "",
   customStyle = css``,
+  ...props
 }: TagProps) => {
   return (
     <TagContainer
@@ -17,6 +18,7 @@ const Tag = ({
       onClick={onClick}
       variant={variant}
       customStyle={customStyle}
+      {...props}
     >
       <span>{label}</span>
       {icon && <Icon icon={icon} size={"2.2rem"} />}

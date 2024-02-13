@@ -12,6 +12,7 @@ const Button = ({
   onClick = () => {},
   className = "",
   customStyle = css``,
+  ...props
 }: ButtonProps) => {
   const iconSize =
     size === "small" ? "2.0rem" : size === "large" ? "2.8rem" : "2.4rem";
@@ -24,6 +25,7 @@ const Button = ({
       leftIcon={leftIcon}
       rightIcon={rightIcon}
       onClick={onClick}
+      {...props}
     >
       {leftIcon && <Icon icon={leftIcon} size={iconSize} />}
       {label}

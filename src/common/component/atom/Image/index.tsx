@@ -9,6 +9,7 @@ const Image = ({
   aspectRatio = "1",
   className = "",
   customStyle = css``,
+  ...props
 }: ImageProps) => {
   return (
     <ImageContainer
@@ -18,6 +19,7 @@ const Image = ({
       aspectRatio={aspectRatio}
       className={className}
       customStyle={customStyle}
+      {...props}
     ></ImageContainer>
   );
 };
