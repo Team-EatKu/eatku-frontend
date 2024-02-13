@@ -10,6 +10,7 @@ export interface IconProps {
   icon: IconObject;
   size?: string;
   color?: string;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
   className?: string;
   customStyle?: SerializedStyles;
 }
@@ -89,7 +90,6 @@ export interface InputContainerProps {
   width?: string;
   height?: string;
   fontSize?: string;
-
   customStyle?: SerializedStyles;
 }
 

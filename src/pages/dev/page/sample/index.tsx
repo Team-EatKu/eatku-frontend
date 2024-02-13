@@ -1,5 +1,6 @@
 import { Icons, Colors } from "@styles";
 import { Button, Icon, Image, Input, Tag } from "@atom/index.tsx";
+import { SearchBar } from "@molecule/index.tsx";
 
 const index = () => {
   return (
@@ -36,6 +37,10 @@ const index = () => {
       </section>
       <section style={{ width: "30rem" }}>
         <Input />
+      </section>
+      <hr />
+      <section style={{ width: "30rem" }}>
+        <SearchBar placeholder={"공학관, 혼밥, 쌀국수"} />
       </section>
     </>
   );

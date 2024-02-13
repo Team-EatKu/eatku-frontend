@@ -7,6 +7,7 @@ const Icon = ({
   icon,
   size = "2.4rem",
   color = Colors.Black,
+  onClick,
   className = "",
   customStyle = css``,
   ...props
@@ -15,6 +16,7 @@ const Icon = ({
     <IconContainer
       size={size}
       color={color}
+      onClick={onClick}
       className={`icon ${icon.name}-icon ${icon.className} ${className}`}
       customStyle={customStyle}
       {...props}
