@@ -111,3 +111,14 @@ export interface LogoProps {
 export interface LogoContainerProps {
   width?: string;
 }
+
+export interface StarsProps {
+  rate: number;
+  size?: string;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface StarsContainerProps {
+  customStyle?: SerializedStyles;
+}

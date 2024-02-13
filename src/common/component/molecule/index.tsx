@@ -1,4 +1,5 @@
+import Profile from "./Profile";
 import SearchBar from "./SearchBar";
 import Rating from "./Rating";
 
-export { Rating, SearchBar };
+export { Profile, Rating, SearchBar };

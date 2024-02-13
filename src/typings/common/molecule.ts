@@ -28,3 +28,17 @@ export interface RatingProps {
 export interface RatingContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface ProfileProps {
+  src: string;
+  name: string;
+  rate?: number;
+  variant?: string;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface ProfileContainerProps {
+  variant?: string;
+  customStyle?: SerializedStyles;
+}

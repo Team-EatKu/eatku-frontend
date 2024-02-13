@@ -1,6 +1,6 @@
 import { Icons, Colors } from "@styles";
-import { Button, Icon, Image, Input, Logo, Tag } from "@atom/index.tsx";
-import { Rating, SearchBar } from "@molecule/index.tsx";
+import { Button, Icon, Image, Input, Logo, Stars, Tag } from "@atom/index.tsx";
+import { Profile, Rating, SearchBar } from "@molecule/index.tsx";
 
 const index = () => {
   return (
@@ -41,6 +41,9 @@ const index = () => {
       <section style={{ width: "30rem" }}>
         <Input />
       </section>
+      <section style={{ width: "30rem" }}>
+        <Stars rate={4} />
+      </section>
       <hr />
       <section style={{ width: "30rem" }}>
         <SearchBar placeholder={"공학관, 혼밥, 쌀국수"} />
@@ -49,7 +52,13 @@ const index = () => {
         <Rating current={"4.5"} />
       </section>
       <section style={{ width: "30rem" }}>
-        <Rating current={"4.5"} />
+        <Profile src={"https://placehold.co/40"} name={"닉네임"} />
+        <Profile
+          src={"https://placehold.co/60"}
+          name={"닉네임"}
+          variant={"review"}
+          rate={5}
+        />
       </section>
     </>
   );
