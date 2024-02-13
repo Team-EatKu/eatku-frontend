@@ -54,3 +54,20 @@ export interface TagContainerProps {
   variant?: string;
   customStyle?: SerializedStyles;
 }
+
+export interface ImageProps {
+  src: string;
+  width?: string;
+  height?: string;
+  aspectRatio?: string;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface ImageContainerProps {
+  src: string;
+  width?: string;
+  height?: string;
+  aspectRatio?: string;
+  customStyle?: SerializedStyles;
+}
