@@ -17,3 +17,14 @@ export interface SearchBarContainerProps {
   width?: string;
   customStyle?: SerializedStyles;
 }
+
+export interface RatingProps {
+  current: string;
+  max?: string;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface RatingContainerProps {
+  customStyle?: SerializedStyles;
+}

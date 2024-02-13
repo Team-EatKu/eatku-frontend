@@ -15,7 +15,7 @@ export const Generators = {
     fontSize = "1.6rem",
     fontWeight = "normal",
     lineHeight = "normal",
-    letterSpacing = "0rem",
+    letterSpacing = "normal",
     fontStyle = "normal",
   ) => css`
     font-size: ${fontSize};

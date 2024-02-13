@@ -1,3 +1,4 @@
 import SearchBar from "./SearchBar";
+import Rating from "./Rating";
 
-export { SearchBar };
+export { Rating, SearchBar };
