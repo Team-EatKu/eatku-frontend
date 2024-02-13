@@ -48,6 +48,9 @@ const index = () => {
       <section style={{ width: "30rem" }}>
         <Rating current={"4.5"} />
       </section>
+      <section style={{ width: "30rem" }}>
+        <Rating current={"4.5"} />
+      </section>
     </>
   );
 };

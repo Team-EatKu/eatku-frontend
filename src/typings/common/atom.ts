@@ -58,6 +58,7 @@ export interface TagContainerProps {
 
 export interface ImageProps {
   src: string;
+  variant?: string;
   width?: string;
   height?: string;
   aspectRatio?: string;
@@ -67,6 +68,7 @@ export interface ImageProps {
 
 export interface ImageContainerProps {
   src: string;
+  variant?: string;
   width?: string;
   height?: string;
   aspectRatio?: string;
