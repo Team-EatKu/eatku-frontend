@@ -60,3 +60,15 @@ export interface FilterRowProps {
 export interface FilterRowContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface TextViewProps {
+  icon?: IconObject;
+  text: string | Array<string>;
+  color?: string;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface TextViewContainerProps {
+  customStyle?: SerializedStyles;
+}

@@ -123,3 +123,25 @@ export interface StarsProps {
 export interface StarsContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface TextProps {
+  text: string | Array<string>;
+  color?: string;
+  fontSize?: string;
+  fontWeight?: string;
+  lineHeight?: string;
+  letterSpacing?: string;
+  fontStyle?: string;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface TextContainerProps {
+  color?: string;
+  fontSize?: string;
+  fontWeight?: string;
+  lineHeight?: string;
+  letterSpacing?: string;
+  fontStyle?: string;
+  customStyle?: SerializedStyles;
+}

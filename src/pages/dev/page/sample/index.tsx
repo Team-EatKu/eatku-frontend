@@ -1,6 +1,21 @@
 import { Icons, Colors } from "@styles";
-import { Button, Icon, Image, Input, Logo, Stars, Tag } from "@atom/index.tsx";
-import { FilterRow, Profile, Rating, SearchBar } from "@molecule/index.tsx";
+import {
+  Button,
+  Icon,
+  Image,
+  Input,
+  Logo,
+  Stars,
+  Tag,
+  Text,
+} from "@atom/index.tsx";
+import {
+  FilterRow,
+  Profile,
+  Rating,
+  SearchBar,
+  TextView,
+} from "@molecule/index.tsx";
 import { SampleContainer } from "./styles.ts";
 
 const index = () => {
@@ -50,6 +65,17 @@ const index = () => {
         <section style={{ width: "30rem" }}>
           <Stars rate={4} />
         </section>
+        <section style={{ display: "flex" }}>
+          <Text text={"텍스트입니다."} />
+          <Text
+            text={[
+              "텍스트입니다1",
+              "텍스트입니다2",
+              "텍스트입니다3",
+              "텍스트입니다4",
+            ]}
+          />
+        </section>
       </div>
       <hr />
       <div className="molecule">
@@ -77,6 +103,19 @@ const index = () => {
               { label: "후문", isActive: true },
               { label: "쪽문" },
             ]}
+          />
+        </section>
+        <section style={{}}>
+          <TextView text={"매일 11:00 ~ 22:00"} icon={Icons.schedule} />
+          <TextView
+            text={[
+              "물, 반찬, 국 셀프",
+              "키오스크 주문",
+              "사이즈업 가능(추가금액)",
+              "Wi-Fi",
+              "포장 가능",
+            ]}
+            icon={Icons.check}
           />
         </section>
       </div>
