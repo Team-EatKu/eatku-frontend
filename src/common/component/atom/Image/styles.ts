@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { ImageContainerProps } from "@typings/common/atom.ts";
 import { CssType } from "@typings/commonType.ts";
 import { css } from "@emotion/react";
+import { Colors } from "@styles";
 
 export const ImageVariants: CssType = {
   default: css`
@@ -12,6 +13,7 @@ export const ImageVariants: CssType = {
   `,
   profile: css`
     border-radius: 50%;
+    border: 0.1rem solid ${Colors.Primary01};
   `,
 };
 

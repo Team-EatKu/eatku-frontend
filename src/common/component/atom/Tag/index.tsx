@@ -6,7 +6,8 @@ import Icon from "@atom/Icon";
 const Tag = ({
   label,
   icon,
-  variant,
+  isActive,
+  variant = "default",
   onClick = () => {},
   className = "",
   customStyle = css``,
@@ -15,7 +16,7 @@ const Tag = ({
   return (
     <TagContainer
       onClick={onClick}
-      variant={variant}
+      variant={isActive ? "active" : variant}
       className={`tag ${className}`}
       customStyle={customStyle}
       {...props}

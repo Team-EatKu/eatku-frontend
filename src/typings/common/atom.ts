@@ -45,6 +45,7 @@ export interface ButtonContainerProps {
 export interface TagProps {
   label: string;
   icon?: IconObject;
+  isActive?: boolean;
   variant?: string;
   onClick?: React.MouseEventHandler<HTMLDivElement>;
   className?: string;
