@@ -1,3 +1,4 @@
+import Filter from "./Filter";
 import Header from "./Header";
 
-export { Header };
+export { Filter, Header };

@@ -3,7 +3,7 @@ import { FilterRowContainer } from "./styles.ts";
 import { Tag } from "@atom/index.tsx";
 
 const FilterRow = ({
-  title,
+  label,
   tags = [],
   className,
   customStyle,
@@ -15,15 +15,15 @@ const FilterRow = ({
       customStyle={customStyle}
       {...props}
     >
-      <div className="filter-row__title">{title}</div>
+      <div className="filter-row__title">{label}</div>
       <div className="filter-row__tags">
         {tags.map((tag) => {
           return (
             <Tag
-              label={tag.label}
-              isActive={tag.isActive}
-              variant={tag.variant}
-              onClick={tag.onClick}
+              label={tag}
+              isActive={false}
+              variant={"default"}
+              onClick={() => {}}
             />
           );
         })}

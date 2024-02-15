@@ -8,3 +8,12 @@ export interface HeaderProps {
 export interface HeaderContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface FilterProps {
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface FilterContainerProps {
+  customStyle?: SerializedStyles;
+}

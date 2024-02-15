@@ -16,7 +16,7 @@ import {
   SearchBar,
   TextView,
 } from "@molecule/index.tsx";
-import { Header } from "@organism/index.tsx";
+import { Filter, Header } from "@organism/index.tsx";
 import { SampleContainer } from "./styles.ts";
 
 const index = () => {
@@ -101,13 +101,8 @@ const index = () => {
         </section>
         <section style={{}}>
           <FilterRow
-            title={"위치"}
-            tags={[
-              { label: "정문", isActive: true },
-              { label: "중문" },
-              { label: "후문", isActive: true },
-              { label: "쪽문" },
-            ]}
+            label={"위치"}
+            tags={["건입", "중문", "후문", "쪽문", "구의"]}
           />
         </section>
         <section style={{}}>
@@ -128,6 +123,9 @@ const index = () => {
       <div className="organism">
         <section>
           <Header />
+        </section>
+        <section>
+          <Filter />
         </section>
       </div>
     </SampleContainer>

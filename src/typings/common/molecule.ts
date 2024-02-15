@@ -43,16 +43,16 @@ export interface ProfileContainerProps {
   customStyle?: SerializedStyles;
 }
 
-export interface TagObject {
-  label: string;
-  isActive?: boolean;
-  variant?: string;
-  onClick?: React.MouseEventHandler<HTMLDivElement>;
-}
+// export interface TagObject {
+//   label: string;
+//   isActive?: boolean;
+//   variant?: string;
+//   onClick?: React.MouseEventHandler<HTMLDivElement>;
+// }
 
 export interface FilterRowProps {
-  title: string;
-  tags: Array<TagObject>;
+  label: string;
+  tags: Array<string>;
   className?: string;
   customStyle?: SerializedStyles;
 }

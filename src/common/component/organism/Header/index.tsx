@@ -6,7 +6,7 @@ import { SearchBar, Profile } from "@molecule/index.tsx";
 const Header = ({ className, customStyle, ...props }: HeaderProps) => {
   return (
     <HeaderContainer
-      className={`search-bar ${className}`}
+      className={`header ${className}`}
       customStyle={customStyle}
       {...props}
     >
