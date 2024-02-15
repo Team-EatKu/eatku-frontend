@@ -16,6 +16,7 @@ import {
   SearchBar,
   TextView,
 } from "@molecule/index.tsx";
+import { Header } from "@organism/index.tsx";
 import { SampleContainer } from "./styles.ts";
 
 const index = () => {
@@ -63,7 +64,11 @@ const index = () => {
           <Input />
         </section>
         <section style={{ width: "30rem" }}>
+          <Stars rate={1} />
+          <Stars rate={2} />
+          <Stars rate={3} />
           <Stars rate={4} />
+          <Stars rate={5} />
         </section>
         <section style={{ display: "flex" }}>
           <Text text={"텍스트입니다."} />
@@ -117,6 +122,12 @@ const index = () => {
             ]}
             icon={Icons.check}
           />
+        </section>
+      </div>
+      <hr />
+      <div className="organism">
+        <section>
+          <Header />
         </section>
       </div>
     </SampleContainer>

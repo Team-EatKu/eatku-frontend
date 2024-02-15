@@ -45,6 +45,7 @@ export const ProfileVariants: CssType = {
 export const ProfileContainer = styled.div<ProfileContainerProps>`
   ${Generators.flexGenerator("row", "flex-start", "center")};
   gap: 1rem;
+  min-width: 12.5rem;
 
   ${(props) => props.variant && ProfileVariants[props.variant]}
 
