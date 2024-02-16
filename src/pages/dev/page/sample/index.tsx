@@ -14,6 +14,7 @@ import {
   Profile,
   Rating,
   SearchBar,
+  Tags,
   TextView,
 } from "@molecule/index.tsx";
 import { Filter, Header } from "@organism/index.tsx";
@@ -116,6 +117,19 @@ const index = () => {
               "포장 가능",
             ]}
             icon={Icons.check}
+          />
+        </section>
+        <section>
+          <Tags
+            tags={[
+              "혼밥",
+              "데이트",
+              "밥약",
+              "회식",
+              "친구들과",
+              "카공",
+              "감성",
+            ]}
           />
         </section>
       </div>

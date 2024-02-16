@@ -1,6 +1,6 @@
 import { FilterRowProps } from "@typings/common/molecule.ts";
 import { FilterRowContainer } from "./styles.ts";
-import { Tag } from "@atom/index.tsx";
+import { Tags } from "@molecule/index.tsx";
 
 const FilterRow = ({
   label,
@@ -16,18 +16,7 @@ const FilterRow = ({
       {...props}
     >
       <div className="filter-row__title">{label}</div>
-      <div className="filter-row__tags">
-        {tags.map((tag) => {
-          return (
-            <Tag
-              label={tag}
-              isActive={false}
-              variant={"default"}
-              onClick={() => {}}
-            />
-          );
-        })}
-      </div>
+      <Tags tags={tags} />
     </FilterRowContainer>
   );
 };

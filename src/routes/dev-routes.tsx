@@ -1,5 +1,6 @@
 import { RouteType } from "@typings/routes/routeType.ts";
 import Sample from "@pages/dev/page/sample";
+import Detail from "@pages/dev/page/detail";
 
 export const devRoutes: RouteType[] = [
   {
@@ -7,7 +8,7 @@ export const devRoutes: RouteType[] = [
     element: <Sample />,
   },
   {
-    path: "dev/card",
-    element: <>dev</>,
+    path: "dev/detail",
+    element: <Detail />,
   },
 ];
