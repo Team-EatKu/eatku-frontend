@@ -63,6 +63,7 @@ export interface FilterRowContainerProps {
 
 export interface TagsProps {
   tags: Array<string>;
+  variant: string;
   className?: string;
   customStyle?: SerializedStyles;
 }

@@ -2,7 +2,13 @@ import { TagsProps } from "@typings/common/molecule.ts";
 import { TagsContainer } from "./styles.ts";
 import { Tag } from "@atom/index.tsx";
 
-const Tags = ({ tags = [], className, customStyle, ...props }: TagsProps) => {
+const Tags = ({
+  tags = [],
+  variant = "default",
+  className,
+  customStyle,
+  ...props
+}: TagsProps) => {
   return (
     <TagsContainer
       className={`tags ${className}`}
@@ -14,7 +20,7 @@ const Tags = ({ tags = [], className, customStyle, ...props }: TagsProps) => {
           <Tag
             label={tag}
             isActive={false}
-            variant={"default"}
+            variant={variant}
             onClick={() => {}}
           />
         );
