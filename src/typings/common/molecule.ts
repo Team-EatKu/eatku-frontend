@@ -76,6 +76,7 @@ export interface TextViewProps {
   icon?: IconObject;
   text: string | Array<string>;
   color?: string;
+  iconSize?: string;
   className?: string;
   customStyle?: SerializedStyles;
 }

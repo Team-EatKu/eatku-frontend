@@ -6,4 +6,7 @@ export const Icons = {
   favorite: { name: "favorite", className: "material-symbols-outlined" },
   share: { name: "share", className: "material-symbols-outlined" },
   rate_review: { name: "rate_review", className: "material-symbols-outlined" },
+  info: { name: "info", className: "material-symbols-outlined" },
+  call: { name: "call", className: "material-symbols-outlined" },
+  location_on: { name: "location_on", className: "material-symbols-outlined" },
 };

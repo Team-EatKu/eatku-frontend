@@ -1,12 +1,15 @@
 import { DetailContainer } from "./styles.ts";
-import { Info } from "../../../detail/component/organism/index.ts";
+import { Detail, Info } from "../../../detail/component/organism/index.ts";
 
 const index = () => {
   return (
     <DetailContainer>
-      <div className="organism">
+      <section>
         <Info />
-      </div>
+      </section>
+      <section>
+        <Detail />
+      </section>
     </DetailContainer>
   );
 };

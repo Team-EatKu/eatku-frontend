@@ -7,6 +7,7 @@ const TextView = ({
   icon,
   text,
   color = Colors.Gray,
+  iconSize = "2.4rem",
   className,
   customStyle,
   ...props
@@ -17,7 +18,9 @@ const TextView = ({
       customStyle={customStyle}
       {...props}
     >
-      {icon && <Icon icon={icon} className={"text-view__icon"} />}
+      {icon && (
+        <Icon icon={icon} size={iconSize} className={"text-view__icon"} />
+      )}
       <Text
         text={text}
         color={color}

@@ -97,11 +97,15 @@ export interface InputContainerProps {
 }
 
 export interface MapProps {
+  width?: string;
+  height?: string;
   className?: string;
   customStyle?: SerializedStyles;
 }
 
 export interface MapContainerProps {
+  width?: string;
+  height?: string;
   customStyle?: SerializedStyles;
 }
 

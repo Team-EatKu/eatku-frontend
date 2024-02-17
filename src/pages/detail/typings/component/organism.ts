@@ -17,3 +17,12 @@ export interface InfoProps {
 export interface InfoContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface DetailProps {
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface DetailContainerProps {
+  customStyle?: SerializedStyles;
+}
