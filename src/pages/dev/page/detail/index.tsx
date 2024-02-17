@@ -3,7 +3,8 @@ import {
   Detail,
   Info,
   Menus,
-} from "../../../detail/component/organism/index.ts";
+  Reviews,
+} from "@pages/detail/component/organism/index.ts";
 
 const index = () => {
   return (
@@ -16,6 +17,9 @@ const index = () => {
       </section>
       <section>
         <Menus />
+      </section>
+      <section>
+        <Reviews />
       </section>
     </DetailContainer>
   );

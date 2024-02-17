@@ -4,7 +4,7 @@ import { Map } from "@atom/index.tsx";
 import { TextView } from "@molecule/index.tsx";
 
 import { temp_restaurant } from "../../../data.ts";
-import { Icons } from "@styles"; // 삭제 예정
+import { Icons } from "@styles";
 
 const Detail = ({ className, customStyle, ...props }: DetailProps) => {
   return (

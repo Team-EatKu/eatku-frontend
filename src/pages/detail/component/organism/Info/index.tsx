@@ -4,7 +4,7 @@ import { Image } from "@atom/index.tsx";
 import { Rating, Tags } from "@molecule/index.tsx";
 import { RestaurantAction } from "@pages/detail/component/organism/index.ts";
 
-import { temp_restaurant } from "../../../data.ts"; // 삭제 예정
+import { temp_restaurant } from "../../../data.ts";
 
 const Info = ({ className, customStyle, ...props }: InfoProps) => {
   return (

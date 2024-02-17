@@ -37,7 +37,24 @@ export const temp_restaurant = {
     },
   ],
   categoryList: ["한식", "일식", "주점"],
-  reiviewList: {},
+  reviewList: [
+    {
+      content:
+        "후문에서 이 정도 가격에 연어덮밥을 먹을 수 있다는 사실 자체가 감동이네요.\n" +
+        "이번에 처음 방문했는데 앞으로도 자주 방문할 것 같습니다.\n" +
+        "매장 분위기는 조용하진 않습니다.",
+      imageUrls: [
+        "https://placehold.co/930x467",
+        "https://placehold.co/930x467",
+        "https://placehold.co/930x467",
+      ],
+      scope: 5,
+      user: {
+        nickName: "농담곰",
+        profileImageUrl: "https://placehold.co/60x60",
+      },
+    },
+  ],
   hashtagList: ["#후문", "#혼밥", "#밥약"],
   phoneNumber: "070-4384-1631",
   lectureBuilding: ["경영관", "새쳔년관"],

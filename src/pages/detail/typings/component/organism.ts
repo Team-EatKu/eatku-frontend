@@ -35,3 +35,23 @@ export interface MenusProps {
 export interface MenusContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface ReviewObject {
+  content: string;
+  imageUrls: Array<string>;
+  scope: number;
+  user: {
+    nickName: string;
+    profileImageUrl: string;
+  };
+}
+
+export interface ReviewProps {
+  data: ReviewObject;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface ReviewContainerProps {
+  customStyle?: SerializedStyles;
+}
