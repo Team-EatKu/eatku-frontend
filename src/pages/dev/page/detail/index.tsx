@@ -1,5 +1,9 @@
 import { DetailContainer } from "./styles.ts";
-import { Detail, Info } from "../../../detail/component/organism/index.ts";
+import {
+  Detail,
+  Info,
+  Menus,
+} from "../../../detail/component/organism/index.ts";
 
 const index = () => {
   return (
@@ -9,6 +13,9 @@ const index = () => {
       </section>
       <section>
         <Detail />
+      </section>
+      <section>
+        <Menus />
       </section>
     </DetailContainer>
   );

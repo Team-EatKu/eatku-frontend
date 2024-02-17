@@ -26,3 +26,12 @@ export interface DetailProps {
 export interface DetailContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface MenusProps {
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface MenusContainerProps {
+  customStyle?: SerializedStyles;
+}

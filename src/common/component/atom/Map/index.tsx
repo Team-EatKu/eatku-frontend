@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { MapContainer } from "./styles.ts";
 
 const Map = ({
-  width = "92rem",
+  width = "100%",
   height = "29.4rem",
   className = "",
   customStyle = css``,
@@ -17,7 +17,7 @@ const Map = ({
       customStyle={customStyle}
       {...props}
     >
-      {`map ${Number(width.replace("rem", "")) * 10} x ${Number(height.replace("rem", "")) * 10}`}
+      {`map`}
     </MapContainer>
   );
 };

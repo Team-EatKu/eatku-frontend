@@ -1,4 +1,4 @@
-import { DetailProps } from "../../../typings/component/organism.ts";
+import { DetailProps } from "@pages/detail/typings/component/organism.ts";
 import { DetailContainer } from "./styles.ts";
 import { Map } from "@atom/index.tsx";
 import { TextView } from "@molecule/index.tsx";

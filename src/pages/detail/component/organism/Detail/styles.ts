@@ -8,6 +8,7 @@ export const DetailContainer = styled.div<DetailContainerProps>`
   height: 71.1rem;
   background-color: ${Colors.White};
   padding: 3rem 4rem;
+  border-radius: 1rem;
 
   & > div.detail__title {
     margin-bottom: 0.5rem;

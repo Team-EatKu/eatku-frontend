@@ -7,8 +7,9 @@ export const InfoContainer = styled.div<InfoContainerProps>`
   gap: 3rem;
   width: 102.4rem;
   height: 37rem;
-  padding: 4rem;
+  padding: 3rem 4rem;
   background-color: ${Colors.White};
+  border-radius: 1rem;
 
   & > div.info__right {
     height: 100%;

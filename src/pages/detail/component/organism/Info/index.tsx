@@ -1,8 +1,8 @@
-import { InfoProps } from "../../../typings/component/organism.ts";
+import { InfoProps } from "@pages/detail/typings/component/organism.ts";
 import { InfoContainer } from "./styles.ts";
 import { Image } from "@atom/index.tsx";
 import { Rating, Tags } from "@molecule/index.tsx";
-import { RestaurantAction } from "../../organism/index.ts";
+import { RestaurantAction } from "@pages/detail/component/organism/index.ts";
 
 import { temp_restaurant } from "../../../data.ts"; // 삭제 예정
 

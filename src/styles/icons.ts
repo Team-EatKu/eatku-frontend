@@ -9,4 +9,8 @@ export const Icons = {
   info: { name: "info", className: "material-symbols-outlined" },
   call: { name: "call", className: "material-symbols-outlined" },
   location_on: { name: "location_on", className: "material-symbols-outlined" },
+  room_service: {
+    name: "room_service",
+    className: "material-symbols-outlined",
+  },
 };

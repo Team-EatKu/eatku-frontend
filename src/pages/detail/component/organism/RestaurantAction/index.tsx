@@ -1,4 +1,4 @@
-import { RestaurantActionProps } from "../../../typings/component/organism.ts";
+import { RestaurantActionProps } from "@pages/detail/typings/component/organism.ts";
 import { RestaurantActionContainer } from "./styles.ts";
 import { TextView } from "@molecule/index.tsx";
 import { Icons } from "@styles";
