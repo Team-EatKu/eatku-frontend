@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pm2 delete eatku-server
+
+pm2 start 'yarn dev --host 0.0.0.0' --name eatku-server
