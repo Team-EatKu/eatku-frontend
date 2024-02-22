@@ -20,6 +20,8 @@ import {
 import { Filter, Header } from "@organism/index.tsx";
 import { SampleContainer } from "./styles.ts";
 
+import axios from "axios";
+
 const index = () => {
   return (
     <SampleContainer>
@@ -31,7 +33,25 @@ const index = () => {
           <Icon icon={Icons.search} color={Colors.Black} />
         </section>
         <section style={{ width: "20rem" }}>
-          <Button label={"버튼"} variant={"primary"} leftIcon={Icons.search} />
+          <Button
+            label={"버튼"}
+            variant={"primary"}
+            leftIcon={Icons.search}
+            onClick={() => {
+              axios
+                .get("http://13.125.93.203:8080/user/nickname", {
+                  params: {
+                    nickName: "이이성성민민",
+                  },
+                })
+                .then((res) => {
+                  console.log(res);
+                })
+                .catch((err) => {
+                  console.log(err);
+                });
+            }}
+          />
           <Button label={"버튼"} variant={"outline"} rightIcon={Icons.search} />
           <Button
             label={"버튼"}
@@ -130,6 +150,7 @@ const index = () => {
               "카공",
               "감성",
             ]}
+            variant={"default"}
           />
         </section>
       </div>
