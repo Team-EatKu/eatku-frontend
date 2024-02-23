@@ -55,3 +55,12 @@ export interface ReviewProps {
 export interface ReviewContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface ReviewsProps {
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface ReviewsContainerProps {
+  customStyle?: SerializedStyles;
+}
