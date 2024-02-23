@@ -1,11 +1,11 @@
 import { CardContainer } from "./styles.ts";
-import { Searchcard } from "@organism/index.tsx";
+import { SearchCard } from "@organism/index.tsx";
 
 const index = () => {
   return (
     <CardContainer>
       <section>
-        <Searchcard />
+        <SearchCard />
       </section>
     </CardContainer>
   );

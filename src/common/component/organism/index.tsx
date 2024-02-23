@@ -1,5 +1,5 @@
 import Filter from "./Filter";
 import Header from "./Header";
-import Searchcard from "./SearchCard";
+import SearchCard from "./SearchCard";
 
-export { Filter, Header, Searchcard };
+export { Filter, Header, SearchCard };
