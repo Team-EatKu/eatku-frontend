@@ -26,3 +26,12 @@ export interface SearchCardProps {
 export interface SearchCardContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface MainCardProps {
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface MainCardContainerProps {
+  customStyle?: SerializedStyles;
+}

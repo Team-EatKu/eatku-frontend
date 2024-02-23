@@ -1,11 +1,14 @@
 import { CardContainer } from "./styles.ts";
-import { SearchCard } from "@organism/index.tsx";
+import { MainCard, SearchCard } from "@organism/index.tsx";
 
 const index = () => {
   return (
     <CardContainer>
       <section>
         <SearchCard />
+      </section>
+      <section>
+        <MainCard />
       </section>
     </CardContainer>
   );
