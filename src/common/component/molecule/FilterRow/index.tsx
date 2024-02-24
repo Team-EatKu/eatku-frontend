@@ -16,7 +16,7 @@ const FilterRow = ({
       {...props}
     >
       <div className="filter-row__title">{label}</div>
-      <Tags tags={tags} />
+      <Tags tags={tags} variant={"default"} />
     </FilterRowContainer>
   );
 };

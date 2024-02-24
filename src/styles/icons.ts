@@ -13,4 +13,9 @@ export const Icons = {
     name: "room_service",
     className: "material-symbols-outlined",
   },
+  filter_alt: { name: "filter_alt", className: "material-symbols-outlined" },
+  arrow_drop_down: {
+    name: "arrow_drop_down",
+    className: "material-symbols-outlined",
+  },
 };
