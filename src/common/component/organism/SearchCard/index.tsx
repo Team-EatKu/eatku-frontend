@@ -17,7 +17,11 @@ const SearchCard = ({ className, customStyle, ...props }: SearchCardProps) => {
         <div className="search-card__name">코코도리</div>
         <div className="search-card__category">일식집</div>
         <Rating current={"4.5"} />
-        <Tags tags={["#후문", "#혼밥", "#밥약"]} variant={"hashtag"} />
+        <Tags
+          tags={["#후문", "#혼밥", "#밥약"]}
+          variant={"hashtag"}
+          size={"small"}
+        />
       </div>
     </SearchCardContainer>
   );

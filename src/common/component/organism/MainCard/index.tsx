@@ -11,7 +11,11 @@ const MainCard = ({ className, customStyle, ...props }: MainCardProps) => {
       {...props}
     >
       <Image src={"https://placehold.co/130"} />
-      <Tags tags={["#후문", "#혼밥", "#밥약"]} variant={"hashtag"} />
+      <Tags
+        tags={["#후문", "#혼밥", "#밥약", "#후문", "#혼밥", "#밥약"]}
+        variant={"hashtag"}
+        size={"small"}
+      />
       <div className="main-card__name">코코도리</div>
     </MainCardContainer>
   );

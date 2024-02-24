@@ -8,6 +8,7 @@ const Tag = ({
   icon,
   isActive,
   variant = "default",
+  size = "medium",
   onClick = () => {},
   className = "",
   customStyle = css``,
@@ -17,6 +18,7 @@ const Tag = ({
     <TagContainer
       onClick={onClick}
       variant={isActive ? "active" : variant}
+      size={size}
       className={`tag ${className}`}
       customStyle={customStyle}
       {...props}

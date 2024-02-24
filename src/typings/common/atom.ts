@@ -47,6 +47,7 @@ export interface TagProps {
   icon?: IconObject;
   isActive?: boolean;
   variant?: string;
+  size?: string;
   onClick?: React.MouseEventHandler<HTMLDivElement>;
   className?: string;
   customStyle?: SerializedStyles;
@@ -54,6 +55,7 @@ export interface TagProps {
 
 export interface TagContainerProps {
   variant?: string;
+  size?: string;
   customStyle?: SerializedStyles;
 }
 
