@@ -5,7 +5,7 @@ import { RecommendList } from "@pages/main/component/organism/index.ts";
 import { Icons } from "@styles";
 
 const RecommendView = ({
-  className,
+  className = "",
   customStyle,
   ...props
 }: RecommendViewProps) => {

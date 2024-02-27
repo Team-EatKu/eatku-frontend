@@ -5,7 +5,7 @@ import { Tags } from "@molecule/index.tsx";
 const FilterRow = ({
   label,
   tags = [],
-  className,
+  className = "",
   customStyle,
   ...props
 }: FilterRowProps) => {

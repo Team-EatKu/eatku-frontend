@@ -3,7 +3,7 @@ import { HeaderContainer } from "./styles.ts";
 import { Logo } from "@atom/index.tsx";
 import { SearchBar, Profile } from "@molecule/index.tsx";
 
-const Header = ({ className, customStyle, ...props }: HeaderProps) => {
+const Header = ({ className = "", customStyle, ...props }: HeaderProps) => {
   return (
     <HeaderContainer
       className={`header ${className}`}

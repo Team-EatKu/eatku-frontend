@@ -3,7 +3,12 @@ import { ReviewContainer } from "./styles.ts";
 import Profile from "@molecule/Profile";
 import { Image } from "@atom/index.tsx";
 
-const Review = ({ data, className, customStyle, ...props }: ReviewProps) => {
+const Review = ({
+  data,
+  className = "",
+  customStyle,
+  ...props
+}: ReviewProps) => {
   return (
     <ReviewContainer
       className={`review ${className}`}

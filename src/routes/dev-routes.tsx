@@ -3,6 +3,7 @@ import Sample from "@pages/dev/page/sample";
 import Detail from "@pages/dev/page/detail";
 import Card from "@pages/dev/page/card";
 import Main from "@pages/dev/page/main";
+import Search from "@pages/dev/page/search";
 
 export const devRoutes: RouteType[] = [
   {
@@ -20,5 +21,9 @@ export const devRoutes: RouteType[] = [
   {
     path: "dev/main",
     element: <Main />,
+  },
+  {
+    path: "dev/search",
+    element: <Search />,
   },
 ];

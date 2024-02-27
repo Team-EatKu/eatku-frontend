@@ -6,7 +6,7 @@ const Tags = ({
   tags = [],
   variant = "default",
   size = "medium",
-  className,
+  className = "",
   customStyle,
   ...props
 }: TagsProps) => {

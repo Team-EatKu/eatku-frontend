@@ -6,7 +6,7 @@ import { Review } from "@pages/detail/component/organism";
 
 import { temp_restaurant } from "../../../data.ts";
 
-const Reviews = ({ className, customStyle, ...props }: ReviewsProps) => {
+const Reviews = ({ className = "", customStyle, ...props }: ReviewsProps) => {
   return (
     <ReviewsContainer
       className={`reviews ${className}`}

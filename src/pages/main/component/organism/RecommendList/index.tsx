@@ -4,7 +4,7 @@ import { MainCard } from "@organism/index.tsx";
 
 const RecommendList = ({
   title,
-  className,
+  className = "",
   customStyle,
   ...props
 }: RecommendListProps) => {

@@ -3,7 +3,7 @@ import { FilterContainer } from "./styles.ts";
 import { FilterRow } from "@molecule/index.tsx";
 import { filterConfig } from "./config.ts";
 
-const Filter = ({ className, customStyle, ...props }: FilterProps) => {
+const Filter = ({ className = "", customStyle, ...props }: FilterProps) => {
   return (
     <FilterContainer
       className={`filter ${className}`}

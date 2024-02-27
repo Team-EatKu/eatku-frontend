@@ -1,7 +1,13 @@
 import { MenuProps } from "../../../typings/component/molecule.ts";
 import { MenuContainer } from "./styles.ts";
 
-const Menu = ({ name, price, className, customStyle, ...props }: MenuProps) => {
+const Menu = ({
+  name,
+  price,
+  className = "",
+  customStyle,
+  ...props
+}: MenuProps) => {
   return (
     <MenuContainer
       className={`menu ${className}`}

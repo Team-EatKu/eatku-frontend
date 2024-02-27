@@ -8,7 +8,7 @@ const TextView = ({
   text,
   color = Colors.Gray,
   iconSize = "2.4rem",
-  className,
+  className = "",
   customStyle,
   ...props
 }: TextViewProps) => {

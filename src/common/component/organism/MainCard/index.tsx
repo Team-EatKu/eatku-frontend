@@ -3,7 +3,7 @@ import { MainCardContainer } from "./styles.ts";
 import { Image } from "@atom/index.tsx";
 import { Tags } from "@molecule/index.tsx";
 
-const MainCard = ({ className, customStyle, ...props }: MainCardProps) => {
+const MainCard = ({ className = "", customStyle, ...props }: MainCardProps) => {
   return (
     <MainCardContainer
       className={`main-card ${className}`}

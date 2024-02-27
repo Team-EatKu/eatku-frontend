@@ -3,7 +3,11 @@ import { SearchCardContainer } from "./styles.ts";
 import { Image } from "@atom/index.tsx";
 import { Rating, Tags } from "@molecule/index.tsx";
 
-const SearchCard = ({ className, customStyle, ...props }: SearchCardProps) => {
+const SearchCard = ({
+  className = "",
+  customStyle,
+  ...props
+}: SearchCardProps) => {
   return (
     <SearchCardContainer
       className={`search-card ${className}`}
