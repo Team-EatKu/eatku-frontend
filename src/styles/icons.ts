@@ -18,8 +18,13 @@ export const Icons = {
     name: "arrow_drop_down",
     className: "material-symbols-outlined",
   },
+  arrow_drop_up: {
+    name: "arrow_drop_up",
+    className: "material-symbols-outlined",
+  },
   manage_search: {
     name: "manage_search",
     className: "material-symbols-outlined",
   },
+  tune: { name: "tune", className: "material-symbols-outlined" },
 };

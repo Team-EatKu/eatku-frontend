@@ -78,6 +78,7 @@ export interface TextViewProps {
   text: string | Array<string>;
   color?: string;
   iconSize?: string;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
   className?: string;
   customStyle?: SerializedStyles;
 }
