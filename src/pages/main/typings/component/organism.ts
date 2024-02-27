@@ -18,3 +18,15 @@ export interface RecommendViewProps {
 export interface RecommendViewContainerProps {
   customStyle?: SerializedStyles;
 }
+
+export interface TitleProps {
+  name: string;
+  lectureBuilding: string;
+  baseLocation?: string;
+  className?: string;
+  customStyle?: SerializedStyles;
+}
+
+export interface TitleContainerProps {
+  customStyle?: SerializedStyles;
+}

@@ -16,7 +16,6 @@ const RecommendView = ({
       {...props}
     >
       <div className="recommend-view__header">
-        <TextView text={"필터"} icon={Icons.filter_alt} />
         <TextView text={"거리순"} icon={Icons.arrow_drop_down} />
       </div>
       <div className="recommend-view__content">
