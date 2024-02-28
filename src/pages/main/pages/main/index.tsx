@@ -5,7 +5,7 @@ import { Filter } from "@organism/index.tsx";
 import { Image } from "@atom/index.tsx";
 import mainBg from "@img/bg/main-bg.svg";
 
-const index = () => {
+const Index = () => {
   return (
     <MainContainer>
       <MainLayout>
@@ -18,4 +18,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

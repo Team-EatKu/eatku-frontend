@@ -2,7 +2,7 @@ import { SearchContainer } from "./styles.ts";
 import { SearchView } from "@pages/search/component/organism/index.ts";
 import { Filter } from "@organism/index.tsx";
 
-const index = () => {
+const Index = () => {
   return (
     <SearchContainer>
       <section>
@@ -15,4 +15,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

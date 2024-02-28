@@ -61,6 +61,12 @@
       ],
       "@typings/*": [
         "src/typings/*"
+      ],
+      "@util": [
+        "src/common/util/index"
+      ],
+      "@api/*": [
+        "src/common/api/*"
       ]
     }
   },

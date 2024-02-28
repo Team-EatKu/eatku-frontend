@@ -3,7 +3,7 @@ import MainLayout from "../../../../common/layout/MainLayout";
 import { SearchView } from "@pages/search/component/organism";
 import { Filter } from "@organism/index.tsx";
 
-const index = () => {
+const Index = () => {
   return (
     <SearchContainer>
       <MainLayout>
@@ -14,4 +14,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

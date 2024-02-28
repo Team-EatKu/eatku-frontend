@@ -6,7 +6,7 @@ import {
   Reviews,
 } from "@pages/detail/component/organism/index.ts";
 
-const index = () => {
+const Index = () => {
   return (
     <DetailContainer>
       <section>
@@ -25,4 +25,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

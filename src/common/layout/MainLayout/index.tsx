@@ -1,7 +1,7 @@
 import React from "react";
 import { Header } from "@organism/index.tsx";
 
-const index = ({ children }: React.PropsWithChildren) => {
+const Index = ({ children }: React.PropsWithChildren) => {
   return (
     <>
       <Header />
@@ -10,4 +10,4 @@ const index = ({ children }: React.PropsWithChildren) => {
   );
 };
 
-export default index;
+export default Index;

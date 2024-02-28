@@ -22,7 +22,7 @@ import { SampleContainer } from "./styles.ts";
 
 import axios from "axios";
 
-const index = () => {
+const Index = () => {
   return (
     <SampleContainer>
       <div className="atom">
@@ -167,4 +167,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
