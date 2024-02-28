@@ -10,7 +10,7 @@ const SearchBar = ({
   onChange = () => {},
   onClick = () => {},
   placeholder = "",
-  className,
+  className = "",
   customStyle,
   ...props
 }: SearchBarProps) => {

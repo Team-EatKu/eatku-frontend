@@ -6,7 +6,7 @@ import star from "@img/icon/star.svg";
 const Rating = ({
   current,
   max = "5.0",
-  className,
+  className = "",
   customStyle,
   ...props
 }: RatingProps) => {

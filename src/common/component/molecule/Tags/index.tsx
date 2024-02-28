@@ -5,7 +5,8 @@ import { Tag } from "@atom/index.tsx";
 const Tags = ({
   tags = [],
   variant = "default",
-  className,
+  size = "medium",
+  className = "",
   customStyle,
   ...props
 }: TagsProps) => {
@@ -21,6 +22,7 @@ const Tags = ({
             label={tag}
             isActive={false}
             variant={variant}
+            size={size}
             onClick={() => {}}
           />
         );

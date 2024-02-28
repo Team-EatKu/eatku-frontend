@@ -4,7 +4,7 @@ import { Menu } from "@pages/detail/component/molecule/index.ts";
 import { TextView } from "@molecule/index.tsx";
 import { Icons } from "@styles";
 
-const Menus = ({ className, customStyle, ...props }: MenusProps) => {
+const Menus = ({ className = "", customStyle, ...props }: MenusProps) => {
   return (
     <MenusContainer
       className={`menus ${className}`}

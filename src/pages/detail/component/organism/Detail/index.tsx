@@ -6,7 +6,7 @@ import { TextView } from "@molecule/index.tsx";
 import { temp_restaurant } from "../../../data.ts";
 import { Icons } from "@styles";
 
-const Detail = ({ className, customStyle, ...props }: DetailProps) => {
+const Detail = ({ className = "", customStyle, ...props }: DetailProps) => {
   return (
     <DetailContainer
       className={`detail__detail ${className}`}

@@ -7,7 +7,7 @@ const Profile = ({
   name = "닉네임",
   rate,
   variant = "default",
-  className,
+  className = "",
   customStyle,
   ...props
 }: ProfileProps) => {

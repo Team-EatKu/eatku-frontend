@@ -8,7 +8,8 @@ const TextView = ({
   text,
   color = Colors.Gray,
   iconSize = "2.4rem",
-  className,
+  onClick,
+  className = "",
   customStyle,
   ...props
 }: TextViewProps) => {
@@ -16,6 +17,7 @@ const TextView = ({
     <TextViewContainer
       className={`text-view ${className}`}
       customStyle={customStyle}
+      onClick={onClick}
       {...props}
     >
       {icon && (

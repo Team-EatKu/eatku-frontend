@@ -6,7 +6,7 @@ import { RestaurantAction } from "@pages/detail/component/organism/index.ts";
 
 import { temp_restaurant } from "../../../data.ts";
 
-const Info = ({ className, customStyle, ...props }: InfoProps) => {
+const Info = ({ className = "", customStyle, ...props }: InfoProps) => {
   return (
     <InfoContainer
       className={`detail__info ${className}`}

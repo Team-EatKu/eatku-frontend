@@ -4,7 +4,7 @@ import { TextView } from "@molecule/index.tsx";
 import { Icons } from "@styles";
 
 const RestaurantAction = ({
-  className,
+  className = "",
   customStyle,
   ...props
 }: RestaurantActionProps) => {

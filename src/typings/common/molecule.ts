@@ -64,6 +64,7 @@ export interface FilterRowContainerProps {
 export interface TagsProps {
   tags: Array<string>;
   variant: string;
+  size?: string;
   className?: string;
   customStyle?: SerializedStyles;
 }
@@ -77,6 +78,7 @@ export interface TextViewProps {
   text: string | Array<string>;
   color?: string;
   iconSize?: string;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
   className?: string;
   customStyle?: SerializedStyles;
 }
