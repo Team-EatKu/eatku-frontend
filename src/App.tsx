@@ -10,6 +10,9 @@ import {
   devRoutes,
 } from "@routes";
 
+import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+
 const router = createBrowserRouter([
   ...adminRoutes,
   ...authRoutes,
@@ -19,8 +22,17 @@ const router = createBrowserRouter([
   ...devRoutes,
 ]);
 
+const queryClient = new QueryClient();
+
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+      <div style={{ fontSize: "16px" }}>
+        <ReactQueryDevtools initialIsOpen={false} />
+      </div>
+    </QueryClientProvider>
+  );
 }
 
 export default App;

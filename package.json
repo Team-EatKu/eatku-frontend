@@ -12,6 +12,8 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@tanstack/react-query": "^5.24.1",
+    "@tanstack/react-query-devtools": "^5.24.1",
     "axios": "^1.6.7",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
@@ -19,6 +21,7 @@
     "react-router-dom": "^6.22.0"
   },
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.20.1",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
