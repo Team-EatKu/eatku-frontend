@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
   ${Generators.flexGenerator("column", "flex-start", "center")};
   background-color: ${Colors.BgGray};
   gap: 2rem;
+  padding-bottom: 4rem;
 
   & > img.image {
     position: absolute;
