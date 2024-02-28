@@ -13,6 +13,7 @@ export const FilterContainer = styled.div<FilterContainerProps>`
   & > div.filter__header {
     width: 100%;
     ${Generators.flexGenerator("row", "space-between", "center")};
+    cursor: pointer;
 
     & > div.filter__title {
       & > span.tune-icon {
@@ -28,7 +29,6 @@ export const FilterContainer = styled.div<FilterContainerProps>`
 
     & > div.filter__toggle {
       ${Generators.flexGenerator("row", "center", "center")};
-      cursor: pointer;
       gap: 0;
 
       & > span.icon {

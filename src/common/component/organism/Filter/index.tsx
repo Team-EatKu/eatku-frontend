@@ -13,7 +13,12 @@ const Filter = ({ className = "", customStyle, ...props }: FilterProps) => {
       customStyle={customStyle}
       {...props}
     >
-      <div className="filter__header">
+      <div
+        className="filter__header"
+        onClick={() => {
+          setIsOpen((prevState) => !prevState);
+        }}
+      >
         <TextView
           className={"filter__title"}
           text={"필터"}
@@ -25,9 +30,6 @@ const Filter = ({ className = "", customStyle, ...props }: FilterProps) => {
           text={isOpen ? "접기" : "펼치기"}
           icon={isOpen ? Icons.arrow_drop_up : Icons.arrow_drop_down}
           iconSize={"3.2rem"}
-          onClick={() => {
-            setIsOpen((prevState) => !prevState);
-          }}
         />
       </div>
       {isOpen && (

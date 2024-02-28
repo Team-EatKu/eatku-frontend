@@ -37,7 +37,6 @@ export const TagSizes: CssType = {
     height: 2.8rem;
     min-width: 5.8rem;
     border-radius: 1.5rem;
-    padding: 0.6rem 1.3rem;
     ${Generators.fontGenerator("1.3rem", "300", "120%")}
   `,
 };
