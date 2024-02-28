@@ -8,5 +8,10 @@ export const HeaderContainer = styled.div<HeaderContainerProps>`
   gap: 2rem;
   padding: 2rem 10%;
   background-color: ${Colors.White};
+
+  & > div.header__logo-wrapper {
+    cursor: pointer;
+  }
+
   ${(props) => props.customStyle};
 `;

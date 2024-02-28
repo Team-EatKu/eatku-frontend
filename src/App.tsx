@@ -5,7 +5,7 @@ import {
   adminRoutes,
   authRoutes,
   detailRoutes,
-  listRoutes,
+  searchRoutes,
   mainRoutes,
   devRoutes,
 } from "@routes";
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   ...adminRoutes,
   ...authRoutes,
   ...detailRoutes,
-  ...listRoutes,
+  ...searchRoutes,
   ...mainRoutes,
   ...devRoutes,
 ]);
