@@ -3,6 +3,7 @@ import { LoginFormContainer } from "./styles.ts";
 import { Button, Input } from "@atom/index.tsx";
 
 const LoginForm = ({
+  handleClickLogin,
   className = "",
   customStyle,
   ...props
@@ -27,7 +28,7 @@ const LoginForm = ({
         placeholder={"비밀번호"}
         type={"password"}
       />
-      <Button label={"로그인"} />
+      <Button label={"로그인"} onClick={handleClickLogin} />
     </LoginFormContainer>
   );
 };

@@ -1,4 +1,5 @@
 import { SerializedStyles } from "@emotion/react";
+import React from "react";
 
 export interface AuthHeaderProps {
   className?: string;
@@ -10,6 +11,7 @@ export interface AuthHeaderContainerProps {
 }
 
 export interface LoginFormProps {
+  handleClickLogin: React.MouseEventHandler<HTMLButtonElement>;
   className?: string;
   customStyle?: SerializedStyles;
 }

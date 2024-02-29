@@ -98,3 +98,23 @@ export const get: ApiType = <T>(
       return Promise.reject(err);
     });
 };
+
+export const post: ApiType = <T>(
+  path: string,
+  parameters?: ParamsType,
+): Promise<T> => {
+  const { realPath, apiParams } = replacePathParams(
+    path,
+    DateUtil.convertDateForParams(parameters || {}),
+  );
+
+  return instance
+    .post<T>(realPath, apiParams)
+    .then((response) => {
+      return Promise.resolve(response.data);
+    })
+    .catch((err) => {
+      console.log(`/Lib/Api/index.js :: POST :: ${realPath} :: Failed!`);
+      return Promise.reject(err);
+    });
+};
