@@ -46,6 +46,7 @@ export const ButtonSizes: CssType = {
     padding: 0.4rem 0.8rem;
   `,
   medium: css`
+    height: 5rem;
     border-radius: 0.6rem;
     font-size: 1.6rem;
     padding: 0.6rem 1.2rem;

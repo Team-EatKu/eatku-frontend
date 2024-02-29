@@ -15,6 +15,9 @@ export const ImageVariants: CssType = {
     border-radius: 50%;
     border: 0.1rem solid ${Colors.Primary01};
   `,
+  circle: css`
+    border-radius: 50%;
+  `,
 };
 
 export const ImageContainer = styled.img<ImageContainerProps>`

@@ -21,7 +21,7 @@ const SearchBar = ({
       customStyle={customStyle}
     >
       <Input
-        className={"search-bar__input"}
+        className={"login-bar__input"}
         fontSize={"1.8rem"}
         value={value}
         onChange={onChange}
@@ -29,11 +29,7 @@ const SearchBar = ({
         {...props}
       />
       <div className="icon-wrapper" onClick={onClick}>
-        <Icon
-          className={"search-bar__icon"}
-          icon={icon}
-          color={Colors.Silver}
-        />
+        <Icon className={"login-bar__icon"} icon={icon} color={Colors.Silver} />
       </div>
     </SearchBarContainer>
   );

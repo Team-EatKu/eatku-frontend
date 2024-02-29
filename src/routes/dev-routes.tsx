@@ -23,7 +23,7 @@ export const devRoutes: RouteType[] = [
     element: <Main />,
   },
   {
-    path: "dev/search",
+    path: "dev/login",
     element: <Search />,
   },
 ];
