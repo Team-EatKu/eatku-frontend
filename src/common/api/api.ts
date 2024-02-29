@@ -4,9 +4,12 @@ import { ApiType } from "@typings/api/api.ts";
 import { DateUtil } from "@util";
 
 const apiUrl = "http://13.125.93.203:8080/";
-
 const instance = axios.create({
   baseURL: apiUrl,
+  headers: {
+    Accept: "*/*",
+    "Content-Type": "application/json",
+  },
 });
 export const createAxiosInstance = () => {
   // baseUrl 설정이 없다면 기본 API URL로 설정된다.

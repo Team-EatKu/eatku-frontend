@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
-import { HeaderContainerProps } from "@typings/common/organism.ts";
+import { AuthHeaderContainerProps } from "@pages/auth/typings/component/organism.ts";
 import { Colors, Generators } from "@styles";
 
-export const AuthHeaderContainer = styled.div<HeaderContainerProps>`
+export const AuthHeaderContainer = styled.div<AuthHeaderContainerProps>`
   width: 100%;
   ${Generators.flexGenerator("row", "flex-start", "center")};
   gap: 2rem;

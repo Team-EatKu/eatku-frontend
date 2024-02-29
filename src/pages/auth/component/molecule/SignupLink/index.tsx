@@ -1,4 +1,4 @@
-import { SignupLinkProps } from "@pages/auth/typings/component/organism.ts";
+import { SignUpLinkProps } from "@pages/auth/typings/component/molecule.ts";
 import { SignupLinkContainer } from "./styles.ts";
 import { useNavigate } from "react-router-dom";
 
@@ -6,7 +6,7 @@ const SignupLink = ({
   className = "",
   customStyle,
   ...props
-}: SignupLinkProps) => {
+}: SignUpLinkProps) => {
   const navigate = useNavigate();
   return (
     <SignupLinkContainer
@@ -19,7 +19,7 @@ const SignupLink = ({
       </div>
       <div
         className="signup-link__link"
-        onClick={() => navigate("/auth/signup")}
+        onClick={() => navigate("/auth/sign-up")}
       >
         회원가입
       </div>
