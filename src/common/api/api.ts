@@ -3,7 +3,7 @@ import { ParamsType } from "@typings/commonType.ts";
 import { ApiType } from "@typings/api/api.ts";
 import { DateUtil } from "@util";
 
-const apiUrl = "http://13.125.93.203:8080/";
+const apiUrl = import.meta.env.VITE_API_URL;
 const instance = axios.create({
   baseURL: apiUrl,
   headers: {

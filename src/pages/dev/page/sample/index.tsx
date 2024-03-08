@@ -22,6 +22,7 @@ import { SampleContainer } from "./styles.ts";
 
 import axios from "axios";
 
+const apiUrl = import.meta.env.VITE_API_URL;
 const Index = () => {
   return (
     <SampleContainer>
@@ -39,11 +40,7 @@ const Index = () => {
             leftIcon={Icons.search}
             onClick={() => {
               axios
-                .get("http://13.125.93.203:8080/user/nickname", {
-                  params: {
-                    nickName: "이이성성민민",
-                  },
-                })
+                .get(apiUrl + "user/nickname/이성성민민", {})
                 .then((res) => {
                   console.log(res);
                 })
